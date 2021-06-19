@@ -2,8 +2,9 @@
   "name": "@casper124578/utils",
   "version": "0.1.0-alpha",
   "description": "A package with useful node util functions",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "license": "MIT",
+  "private": false,
   "exports": {
     ".": {
       "require": "./dist/index.js",

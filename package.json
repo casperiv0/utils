@@ -10,6 +10,7 @@
   ],
   "scripts": {
     "build": "rimraf ./dist && tsc",
+    "test-tsc": "tsc --noEmit",
     "format:quick": "pretty-quick --staged --pattern \"**/*.{js,jsx,ts,tsx,md,css,json}\"",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md,css,json}\" --ignore-path .gitignore",
     "lint": "eslint . --ext .ts,.js,.tsx,.jsx",

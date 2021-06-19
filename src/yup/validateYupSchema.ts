@@ -4,7 +4,7 @@ import type { YupSchema } from "./YupSchema.js";
 
 /**
  * validate a yup schema
- * @param obj The yup schema
+ * @param obj An object to validate the data on (the schema will be automatically created.)
  * @param data The data to validate
  * @returns An array with the error or null
  */

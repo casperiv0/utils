@@ -1,6 +1,6 @@
 {
   "name": "@casper124578/utils",
-  "version": "0.1.0-alpha.1",
+  "version": "0.1.0",
   "description": "A package with useful node util functions",
   "main": "./dist/index.js",
   "license": "MIT",

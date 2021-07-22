@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.0
+
+- Allow passing Array of objects to `validateSchema`
+- Bump dependencies
+
 ## 0.1.1
 
 - Update README

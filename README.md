@@ -4,7 +4,7 @@ A package with useful node util functions (_mostly for my personal projects_)
 
 ## Example
 
-**ts example**
+### ts example
 
 ```ts
 import * as yup from "yup";
@@ -20,7 +20,7 @@ const data = {
   /* some data here */
 };
 
-const [error] = await validateSchema(testSchemaObj);
+const [error] = await validateSchema(testSchemaObj, data);
 
 if (error) {
   return console.log("validation error!", error);

@@ -1,10 +1,10 @@
 {
   "name": "@casper124578/utils",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "description": "A package with useful node util functions",
-  "main": "./dist/index.js",
+  "exports": "./dist/index.js",
   "license": "MIT",
-  "private": false,
+  "type": "module",
   "files": [
     "dist"
   ],
@@ -15,6 +15,9 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md,css,json}\" --ignore-path .gitignore",
     "lint": "eslint . --ext .ts,.js,.tsx,.jsx",
     "prepare": "husky install"
+  },
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
   },
   "keywords": [
     "utils",

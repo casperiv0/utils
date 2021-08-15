@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0
+
+### Breaking
+
+- Require node 12.20
+- This package is now ESM only. Please [Read this](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c)
+
 ## 0.2.1
 
 - Fix example in README

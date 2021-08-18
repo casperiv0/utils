@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.0
+
+- Fix `files` export in package.json
+
 ## 1.1.0
 
 - Fix no types found for this module

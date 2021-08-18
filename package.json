@@ -1,15 +1,19 @@
 {
   "name": "@casper124578/utils",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A package with useful node util functions",
-  "exports": "./dist/index.js",
   "license": "MIT",
   "type": "module",
   "files": [
     "dist"
   ],
+  "exports": {
+    ".": "./dist/index.js",
+    "./*": "./*"
+  },
   "scripts": {
-    "build": "rimraf ./dist && tsc",
+    "remove-build": "rimraf ./index.js ./index.d.ts ./index.js.map ./yup",
+    "build": "npm run remove-build && rimraf ./dist && tsc",
     "test-tsc": "tsc --noEmit",
     "format:quick": "pretty-quick --staged --pattern \"**/*.{js,jsx,ts,tsx,md,css,json}\"",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md,css,json}\" --ignore-path .gitignore",

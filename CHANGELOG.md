@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.0
+
+- Fix no types found for this module
+
 ## 1.0.0
 
 ### Breaking

@@ -1,6 +1,6 @@
 {
   "name": "@casper124578/utils",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A package with useful node util functions",
   "license": "MIT",
   "type": "module",
@@ -56,10 +56,10 @@
   "devDependencies": {
     "@casper124578/eslint-config": "^0.0.16",
     "eslint": "^7.32.0",
-    "husky": "^7.0.1",
+    "husky": "^7.0.2",
     "pretty-quick": "^3.1.1",
     "rimraf": "^3.0.2",
-    "typescript": "^4.3.5"
+    "typescript": "^4.4.2"
   },
   "prettier": {
     "semi": true,

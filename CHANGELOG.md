@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.1
+
+- Bump dependencies
+
 ## 1.2.0
 
 - Fix `files` export in package.json

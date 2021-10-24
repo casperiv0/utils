@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.4.0
+
+- Bump dependencies
+- Support for `yup@0.32.11`
+- **Breaking:** remove `YupSchema` type. Replaced with `yup.AnySchema`
+
 ## 1.2.1
 
 - Bump dependencies

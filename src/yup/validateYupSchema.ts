@@ -1,4 +1,5 @@
 import * as yup from "yup";
+import type { ObjectShape } from "yup/lib/object";
 import { createYupSchema } from "./createYupSchema.js";
 
 /**
@@ -8,7 +9,7 @@ import { createYupSchema } from "./createYupSchema.js";
  * @returns An array with the error or null
  */
 export async function validateSchema<T = any>(
-  objs: yup.AnySchema | yup.AnySchema[],
+  objs: ObjectShape,
   data: T,
 ): Promise<[yup.ValidationError | null]> {
   const resolved = Array.isArray(objs) ? objs : [objs];

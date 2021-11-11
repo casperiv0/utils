@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.0
+
+- **Breaking:** replace `yup.AnySchema` with `yup.ObjectShape`. This fixes a bug `field.resolve is not a function.`
+
 ## 1.4.0
 
 - Bump dependencies
